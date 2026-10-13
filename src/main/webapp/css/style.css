@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5fa;
+    color: #333;
+}
+
+header {
+    background: #174ea6;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #d5dce5;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+    color: #174ea6;
+}
+
+.container p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 5px;
+    background: #174ea6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #103b80;
+}
+
+.admin-btn {
+    background: #198754;
+}
+
+.admin-btn:hover {
+    background: #12663f;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccd3dd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
